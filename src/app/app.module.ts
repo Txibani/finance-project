@@ -14,13 +14,15 @@ import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { MenuComponent } from './menu/menu.component';
 import { HomeComponent } from './content/home/home.component';
+import { NotFoundComponent } from './app/not-found/not-found.component';
 
 @NgModule({
     declarations: [
         AppComponent,
         NavComponent,
         MenuComponent,
-        HomeComponent
+        HomeComponent,
+        NotFoundComponent
     ],
     imports: [
         BrowserModule,
